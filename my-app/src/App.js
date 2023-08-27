@@ -1,10 +1,12 @@
 import "./App.css";
-import StatefulGreetingWithPrevState from "./components/StatefulGreetingWithPrevState";
+import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
+import ConditionalRendieringFuntional from "./components/ConditionalRendieringFuntional";
 
 function App() {
   return (
     <div className="App">
-      <StatefulGreetingWithPrevState />
+      <ConditionalRenderingClass />
+      <ConditionalRendieringFuntional connected={false}/>
     </div>
   );
 }
