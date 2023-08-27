@@ -1,14 +1,10 @@
 import "./App.css";
-import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
-import ConditionalRendieringFuntional from "./components/ConditionalRendieringFuntional";
+import NestingComponents from "./components/NestingComponents";
 
 function App() {
-  return (
-    <div className="App">
-      <ConditionalRenderingClass />
-      <ConditionalRendieringFuntional connected={false}/>
-    </div>
-  );
+  return <div className="App">
+    <NestingComponents />
+  </div>;
 }
 
 export default App;
