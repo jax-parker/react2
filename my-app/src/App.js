@@ -1,9 +1,10 @@
 import "./App.css";
-import LifeCyclesCWU from "./components/LifeCyclesCWU";
+import { SearchBar1 } from "./components/SearchBar1";
+
 
 function App() {
   return <div className="App">
-      <LifeCyclesCWU />
+      <SearchBar1 />
     </div>;
 }
 
