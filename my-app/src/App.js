@@ -1,10 +1,10 @@
 import "./App.css";
-import ControlledFormHooks from "./components/ControlledFormHooks";
+import ControlledFormHooks1 from "./components/ControlledFormHooks1";
 
 
 function App() {
   return <div className="App">
-      <ControlledFormHooks />
+      <ControlledFormHooks1 />
     </div>;
 }
 
