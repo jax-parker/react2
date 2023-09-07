@@ -1,11 +1,15 @@
 import "./App.css";
-import ControlledFormHooks1 from "./components/ControlledFormHooks1";
+// import StatefulGreetingWithPrevState from "./components/StatefulGreetingWithPrevState";
+// import HooksCounter from "./components/HooksCounter";
+import UseStateWithObjects from "./components/UseStateWithObjects";
 
 
 function App() {
   return <div className="App">
-      <ControlledFormHooks1 />
-    </div>;
+      {/* <StatefulGreetingWithPrevState />
+      <HooksCounter /> */}
+      <UseStateWithObjects />
+  </div>;
 }
 
 export default App;
